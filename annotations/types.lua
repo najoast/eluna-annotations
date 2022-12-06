@@ -18,3 +18,9 @@
 ---@alias bool boolean
 
 ---@alias ObjectGuid number
+---@alias Opcodes uint32
+
+-- See WorldPacket.h for more info
+---@class WorldPacket
+---@field public GetOpcode fun(): Opcodes
+---@field public GetReceivedTime fun(): number
